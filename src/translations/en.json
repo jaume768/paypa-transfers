@@ -5,7 +5,7 @@
         "priceLabel": "Price:",
         "priceUSD": "$50",
         "priceBTC": "0.00051 BTC",
-        "stock": "6/20 in stock",
+        "stock": "4/20 in stock",
         "buy": "Buy"
     },
     "card2": {
@@ -34,5 +34,6 @@
         "enterEmailAlert": "Please enter your PayPal email."
     },
     "countdown": "Time left: {{minutes}}:{{seconds}}",
-    "countdownCompleted": "Time is up."
+    "countdownCompleted": "Time is up.",
+    "timeoutmessage":"You have the following time to make the transfer of bitcoins..."
 }

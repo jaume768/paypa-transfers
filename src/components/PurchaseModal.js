@@ -50,6 +50,9 @@ const PurchaseModal = ({ closeModal, amount }) => {
             ) : (
                 <div>
                     <h2>{translations.modal.waitingTransfer}</h2>
+                    <p>{translations.timeoutmessage}</p>
+                    <p>{translations.modal.bitcoinAddress}</p>
+                    <code>0xACbE40651957312DA6862Abb6b648e95A637f6d1</code>
                     <CountdownTimer minutes={8} />
                 </div>
             )}
