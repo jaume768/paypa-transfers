@@ -1,0 +1,79 @@
+/* src/components/PurchaseModal.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    max-width: 500px;
+    transform: translate(-50%, -50%);
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.modal h2 {
+    margin-top: 0;
+}
+
+.modal code {
+    display: block;
+    background-color: #333;
+    padding: 10px;
+    margin: 10px 0;
+    word-break: break-all;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal label {
+    margin-bottom: 10px;
+}
+
+.modal input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.modal p {
+    margin: 10px 0;
+}
+
+.modal p strong {
+    margin-right: 5px;
+}
+
+.modal button {
+    padding: 10px;
+    background-color: #ffb300;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.close-button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #555;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}

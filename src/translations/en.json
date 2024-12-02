@@ -1,0 +1,38 @@
+{
+    "title": "PayPal Transfers",
+    "card1": {
+        "amount": "$250 in PayPal",
+        "priceLabel": "Price:",
+        "priceUSD": "$50",
+        "priceBTC": "0.00051 BTC",
+        "stock": "7/20 in stock",
+        "buy": "Buy"
+    },
+    "card2": {
+        "amount": "$500 in PayPal",
+        "priceLabel": "Price:",
+        "priceUSD": "$150",
+        "priceBTC": "0.0015 BTC",
+        "stock": "Out of stock",
+        "buy": "Buy"
+    },
+    "card3": {
+        "amount": "$1000 in PayPal",
+        "priceLabel": "Price:",
+        "priceUSD": "$300",
+        "priceBTC": "0.0031 BTC",
+        "stock": "Out of stock",
+        "buy": "Buy"
+    },
+    "modal": {
+        "confirmPurchase": "Confirm Purchase",
+        "bitcoinAddress": "Bitcoin Address (BNB Smart Chain):",
+        "enterEmail": "PayPal Email:",
+        "initiatePurchase": "Start Purchase",
+        "waitingTransfer": "Waiting for transfer...",
+        "close": "Close",
+        "enterEmailAlert": "Please enter your PayPal email."
+    },
+    "countdown": "Time left: {{minutes}}:{{seconds}}",
+    "countdownCompleted": "Time is up."
+}

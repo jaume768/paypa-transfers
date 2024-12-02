@@ -1,0 +1,11 @@
+/* src/components/LandingPage.css */
+.landing-page {
+    padding: 50px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}

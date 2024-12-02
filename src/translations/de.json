@@ -1,0 +1,38 @@
+{
+    "title": "PayPal Überweisungen",
+    "card1": {
+        "amount": "$250 in PayPal",
+        "priceLabel": "Preis:",
+        "priceUSD": "$50",
+        "priceBTC": "0.00051 BTC",
+        "stock": "7/20 auf Lager",
+        "buy": "Kaufen"
+    },
+    "card2": {
+        "amount": "$500 in PayPal",
+        "priceLabel": "Preis:",
+        "priceUSD": "$150",
+        "priceBTC": "0.0015 BTC",
+        "stock": "Nicht auf Lager",
+        "buy": "Kaufen"
+    },
+    "card3": {
+        "amount": "$1000 in PayPal",
+        "priceLabel": "Preis:",
+        "priceUSD": "$300",
+        "priceBTC": "0.0031 BTC",
+        "stock": "Nicht auf Lager",
+        "buy": "Kaufen"
+    },
+    "modal": {
+        "confirmPurchase": "Kauf Bestätigen",
+        "bitcoinAddress": "Bitcoin-Adresse (BNB Smart Chain):",
+        "enterEmail": "PayPal E-Mail:",
+        "initiatePurchase": "Kauf Starten",
+        "waitingTransfer": "Warte auf Überweisung...",
+        "close": "Schließen",
+        "enterEmailAlert": "Bitte geben Sie Ihre PayPal-E-Mail ein."
+    },
+    "countdown": "Verbleibende Zeit: {{minutes}}:{{seconds}}",
+    "countdownCompleted": "Zeit ist abgelaufen."
+}
